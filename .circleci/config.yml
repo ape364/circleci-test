@@ -43,7 +43,8 @@ workflows:
       - build-and-test
   deployment-workflow:
     jobs:
+      - build-and-test
       - deployment:
-          - type: approval
-          - requires:
-              - build-and-test
+          type: approval
+          requires:
+            - build-and-test
