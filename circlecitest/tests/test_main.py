@@ -4,7 +4,7 @@ from io import StringIO
 
 import pytest
 
-from someapp.main import get_ip, print_result
+from circlecitest.main import get_ip, print_result
 
 
 @pytest.mark.asyncio
