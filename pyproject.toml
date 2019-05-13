@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "circleci-test"
+name = "circlecitest"
 version = "0.1.0"
 description = "testing pypi deploy"
 authors = ["ape364 <ape364@gmail.com>"]
