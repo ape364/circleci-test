@@ -48,4 +48,6 @@ workflows:
           type: approval
           requires:
             - build-and-test
-      - deployment
+      - deployment:
+          requires:
+            - deployment-approval
